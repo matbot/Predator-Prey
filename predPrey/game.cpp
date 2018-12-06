@@ -265,11 +265,11 @@ void Game::printBoard()
 			switch(whatCritter(i,j)){
 				case WALL: cout << "\u2B1B";
 						 break;
-				case EMPTY: cout << "\u0020";
+				case EMPTY: cout << "\u0020 ";
 						  break;
-				case ANT: cout << "\u204E";
+				case ANT: cout << "\u204E ";
 						break;
-				case DOODLE: cout << "\u24E7";}
+				case DOODLE: cout << "\u203B ";}
 			cout << " ";
 		}
 		cout << endl;

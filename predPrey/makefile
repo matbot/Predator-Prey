@@ -21,14 +21,14 @@ DOCS = *.pdf
 PROGS = predprey
 
  #COMPRESSED FILE
-TAR = cs162_lab5_mathewmcdade.tar.bz2
+TAR = ${PROGS}.tar.bz2
 
 # #####################################################
 # #BUILD and TAR
 # #####################################################
 
-predprey: ${OBJS} ${HEADERS}
-	${CXX} ${CXXFLAGS} ${OBJS} -o predprey
+${PROGS}: ${OBJS} ${HEADERS}
+	${CXX} ${CXXFLAGS} ${OBJS} -o ${PROGS}
 
 ${OBJS}: ${SRCS}
 	${CXX} ${CXXFLAGS} -c $(@:.o=.cpp)
