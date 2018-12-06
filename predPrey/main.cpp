@@ -1,8 +1,5 @@
 /*********************************************
  * *Author: Mathew McDade
- * *Date: Sat Oct 29 14:20:18 PDT 2016 
- * *Description: Main method.
- * Not much here. More inside.
  * *********************************************/
 #include <iostream>
 #include <stdlib.h>
